@@ -1,19 +1,23 @@
-body {
+* {
   margin: 0;
-  padding: 20px;
+  padding: 0;
+}
+body {
   max-height: 100vh;
   max-width: 100vw;
   /* display: flex; */
   /* justify-content: center; */
 }
 .nav {
-  width: 90vw;
+  /* margin-top: .5vh; */
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo {
+  padding-left: 1vw;
   width: 20vw;
   height: 5vh;
   object-fit: contain;
@@ -26,9 +30,9 @@ body {
   justify-content: space-between;
 }
 
-.alert-adj:nth-child(2){
-  padding-right: 3vw;
-}
+/* .alert-adj:nth-child(2){ */
+  /* padding-right: 3vw; */
+/* } */
 
 .card {
   position: relative;
