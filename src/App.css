@@ -93,11 +93,11 @@ body {
 }
 
 .swipeButton_star {
-  color: blue !important;
+  color: rgb(41, 135, 223) !important;
 }
 
 .swipeButton_right {
-  color: green !important;
+  color: rgb(94, 195, 40) !important;
 }
 
 .swipeButton_bolt {
