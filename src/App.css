@@ -72,7 +72,7 @@ body {
 
 .swipeButtons {
   position: fixed;
-  width: 93vw;
+  width: 100vw;
   bottom: 8vh;
   /* height: 9vh; */
   display: flex;
@@ -109,10 +109,10 @@ body {
 }
 
 .footer {
-  width: 93vw;
   position: fixed;
+  width: 100vw;
   bottom: 0;
   margin-bottom: 1.1vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
