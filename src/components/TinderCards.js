@@ -1,22 +1,17 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import TinderCard from 'react-tinder-card'
-import khusbu from '../images/khusbu.jpg'
-import bajaj from '../images/bajaj.jpg'
+import database from '../Firebase'
+// import khusbu from '../images/khusbu.jpg'
+// import bajaj from '../images/bajaj.jpg'
 
 const TinderCards = () => {
 
-  const [people, setPeople] = useState([
-    {
-      name: 'Khusbu',
-      image: khusbu,
-      bio: 'wanna know me?'
-    },
-    {
-      name: 'Bajaj',
-      image: bajaj,
-      bio: 'wanna know me?'
-    },
-  ])
+  const [people, setPeople] = useState([])
+
+  useEffect (() => {
+    database.collection('people').onSnapshot(snapshot=> (setPeople(snapshot.docs.map(doc => doc.data()))
+    ))
+  }, []);
 
   return (
     <div>
