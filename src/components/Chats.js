@@ -37,7 +37,7 @@ const Chats = () => {
                 <Chat name='Khukhbu'
                     message='Hey Bro!'
                     timestamp='6 hours ago'
-                    profilePic='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbJOdBLR_eNIfwt4-eoPsDZNhFXzoQkbPnuw&usqp=CAU'
+                    profilePic='https://assets.telegraphindia.com/telegraph/47a9d82d-a5ce-4a39-948b-16bff76caade.jpg'
                 />
                 <Chat name='Munu'
                     message='Meaw'
