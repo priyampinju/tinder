@@ -116,3 +116,39 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 2px solid rgb(246, 244, 244);
+  margin-left: 1.4vw;
+}
+
+.chat_details {
+  flex: 1;
+}
+
+.chat_image {
+  margin-right: 3vw;
+}
+
+.chat_details p {
+  color: grey;
+}
+.search {
+  margin-top: 2vh;
+  margin-left: 2vw;
+  display: flex;
+  border-bottom: 1px solid red;
+  height: 4vh;
+  margin-right: 2vw;
+}
+.search p {
+  margin-left: 3vw;
+  color: grey;
+}
+.search {
+  color: red;
+}
