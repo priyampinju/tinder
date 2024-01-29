@@ -30,6 +30,10 @@ body {
   justify-content: space-between;
 }
 
+
+/*Cards Container*/
+/*==========================================================*/
+
 .card {
   position: relative;
   border-radius: 20px;
@@ -64,6 +68,10 @@ body {
   margin-top: 5px;
   max-width: 100vw;
 }
+
+/*Swipe Buttons*/
+/*===========================================================*/
+
 .swipe {
   position: absolute;
   width: 100%;
@@ -108,6 +116,10 @@ body {
   background-color: white;
 }
 
+
+/*Footer part*/
+/*========================================================*/
+
 .footer {
   position: fixed;
   width: 100vw;
@@ -116,6 +128,9 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+/* Chats */
+/* ========================================================= */
 
 .chat {
   display: flex;
@@ -151,4 +166,14 @@ body {
 }
 .search {
   color: red;
+}
+
+.new_matches {
+  margin-left: 2vw;
+  margin-top: 1.5vh;
+  margin-bottom: 1vh;
+}
+
+.chats_messages {
+  margin-left: 2vw;
 }
